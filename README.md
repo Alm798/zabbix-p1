@@ -46,7 +46,7 @@ systemctl enable zabbix-server apache2
 
 Скриншот авторизации в админке
 
-![alt text]()
+![alt text](https://github.com/Alm798/zabbix-p1/blob/main/screen2.1.png)
 ---
 
 ### Задание 2. Установка Zabbix Agent на два хоста
@@ -73,15 +73,15 @@ sed -i 's/Server=127.0.0.1/Server=192.168.1.33/g' /etc/zabbix/zabbix_agent.con
 
 Скриншот раздела configuration
 
-![alt text]()
+![alt text](https://github.com/Alm798/zabbix-p1/blob/main/screen2.3.png)
 
 Cкриншот лога zabbix agent, где видно, что он работает с сервером
 
-![alt text]()
+![alt text](https://github.com/Alm798/zabbix-p1/blob/main/screen2.4.png)
 
 Cкриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
 
-![alt text]()
+![alt text](https://github.com/Alm798/zabbix-p1/blob/main/screen2.2.png)
 
 ---
 
@@ -89,4 +89,4 @@ Cкриншот раздела Monitoring > Latest data для обоих хос
 
 Cкриншот раздела Latest Data, где видно свободное место на диске C ({#FSLABEL}(C:): Space utilization)
 
-![alt text]()
+![alt text](https://github.com/Alm798/zabbix-p1/blob/main/screen2.5.png)
