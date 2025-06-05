@@ -77,7 +77,7 @@ sed -i 's/Server=127.0.0.1/Server=192.168.1.33/g' /etc/zabbix/zabbix_agent.con
 
 Cкриншот лога zabbix agent, где видно, что он работает с сервером
 
-![alt text](https://github.com/Alm798/zabbix-p1/blob/main/screen2.4.png)
+![alt text](https://github.com/Alm798/zabbix-p1/blob/main/screen2.4.jpg)
 
 Cкриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
 
